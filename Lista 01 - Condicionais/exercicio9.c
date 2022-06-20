@@ -20,7 +20,7 @@ int main(void) {
       case '>': printf("SINAL DE MAIOR\n");
       break;
       case '=': printf("SINAL DE IGUAL\n");
-      break;
+      break; 
       default: printf("OUTRO SINAL\n");
       break;
     }
