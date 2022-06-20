@@ -1,0 +1,7 @@
+valorPtr = &valor
+
+letras B e C
+
+B - *valorPtr refere-se ao conteúdo da variável (valor) que possui o endereço escrito no conteúdo do ponteiro valorPtr
+
+C - Como valorPtr recebeu o endereço de valor, é correto afirmar que o endereço de valor é exatamente igual ao conteúdo de valorPtr

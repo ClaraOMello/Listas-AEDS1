@@ -1,0 +1,18 @@
+Código 1
+
+ Dentro do for é acrescentado uma unidade ao conteúdo do espaço de memória escrito em ptr
+ O printf imprime o valor inteiro acessado através do endereço em ptr
+
+ Tela: 
+   ptr: 15
+
+
+Código 2
+
+ Primeiro, o programa reservará um endereço de memória para o ponteiro ptr. O conteúdo de ptr será um endereço de memória que aloca o tamanho de um inteiro. Dentro do for, esse endereço escrito em ptr será alocado 4 bytes (tamanho de um inteiro). Como o for repetirá 5 vezes, essa alocação será de 20 bytes.
+ O printf imprime o conteúdo dentro de ptr (endereço de memória)
+
+ Tela (considerando o endereço anterior = 11c92a0):
+   ptr: 0x11c92b4
+
+

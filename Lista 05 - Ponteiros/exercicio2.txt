@@ -1,0 +1,11 @@
+	p++
+Adiciona 1 ao conteúdo da variável p
+
+	(*p)++
+Adiciona 1 ao conteúdo aramazenado no endereço escrito em p
+
+	*(p++)
+Pula um espaço da memória reservado para um inteiro (novo endereço de memória) e acessa o conteúdo armazenado nele
+
+A expressão *(p+10) se refere ao terceiro caso: 
+	Acessa o conteúdo armazenado em um endereço que está a 10 espaços de memória do endereço armazenado em p
